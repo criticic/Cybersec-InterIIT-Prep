@@ -14,7 +14,7 @@ POC: [exploit.md](CVE-2024-32113/POC/exploit.md)
 
 Incorrect username validation in the registration process of CTFd v2.0.0 - v2.2.2 allows an attacker to take over an arbitrary account if the username is known and emails are enabled on the CTFd instance. To exploit the vulnerability, one must register with a username identical to the victim's username, but with white space inserted before and/or after the username. This will register the account with the same username as the victim. After initiating a password reset for the new account, CTFd will reset the victim's account password due to the username collision.
 
-POC: TODO
+POC: [exploit.md](CVE-2020-7245/POC/exploit.md)
 
 ### 3. CVE-2019-0217 (100 points)
 
