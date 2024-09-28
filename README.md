@@ -20,7 +20,7 @@ POC: [exploit.md](CVE-2020-7245/POC/exploit.md)
 
 In Apache HTTP Server 2.4 release 2.4.38 and prior, a race condition in mod_auth_digest when running in a threaded server could allow a user with valid credentials to authenticate using another username, bypassing configured access control restrictions.
 
-POC: TODO
+POC: [exploit.md](CVE-2019-0217/POC/exploit.md)
 
 ### 4. CVE-2016-3841 (100 points)
 
