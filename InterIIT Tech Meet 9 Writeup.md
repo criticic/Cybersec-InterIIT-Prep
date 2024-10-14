@@ -14,7 +14,8 @@ POC & Setup Guide: TODO
 
 When running Apache Tomcat 7.0.0 to 7.0.79 on Windows with HTTP PUTs enabled (e.g. via setting the readonly initialisation parameter of the Default to false) it was possible to upload a JSP file to the server via a specially crafted request. This JSP could then be requested and any code it contained would be executed by the server.
 
-POC & Setup Guide: TODO
+POC & Setup Guide: [exploit.md](CVE-2017-12615/POC/exploit.md)
+Setup Files: [vulntomcat](CVE-2017-12615/vulntomcat/)
 
 ### 3. CVE-2020-0609 and CVE-2020-0610 (200 points)
 
